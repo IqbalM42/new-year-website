@@ -47,14 +47,15 @@ body{
 
 .container{
     width: 70%;
-    margin: 200px auto;
-    margin-bottom: 0px;
+
 }
 .main_year{
     display: flex;
     justify-content: space-between;
     gap: 100px;
     align-items: center;
+    margin: 200px auto;
+    margin-bottom: 0px;
 }
 .top_img img{
     width: 100%;
@@ -62,7 +63,7 @@ body{
 .top_text{
     width: 50%;
 }
-.top_text h3{
+.section_heading{
     font-size: 40px;
     font-weight: 700;
     color: #151414;
@@ -70,4 +71,101 @@ body{
 .top_text p{
     font-size: 16px;
     color: #151414;
+}
+/*  plain siction  */
+
+.plain_section{
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+.plain_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0px;
+}
+.plain_box h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin: 12px 0px;
+} 
+.plain_box p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+} 
+
+.posative_section{
+    background-image: linear-gradient(rgba(240, 103, 23, 0.89), rgba(236, 91, 33, 0.205)), url(../images/watch.png);
+    margin: 50px auto;
+    height: 250px;
+    border-radius: 6px;
+
+}
+.posative_text{
+    width: 50%;
+    margin-left: 60px;
+    
+}
+.posative_text h3{
+    padding-top: 50px;
+}
+.btn_primary{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    color: #F15B22;
+    background-color: #ffffff;
+    margin-top: 15px;
+}
+footer{
+    background-color: #151414;
+    overflow: hidden;
+
+}
+.footer_containt{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin:120px auto;
+}
+.footer_left{
+    width: 50%;
+}
+.footer_left h3{
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer_left p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.email{
+    margin-bottom: 15px;
+}
+.footer_icon{
+    margin-top: 15px;
+}
+.footer_icon img{
+    margin-right: 15px;
+}
+.footer_right{
+
+}
+.footer_right h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footer_right input{
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
 }
